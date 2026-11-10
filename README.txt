@@ -1,15 +1,10 @@
-Pei｜AI LINE 貼圖作品暨心得網站
+Elsa 的貼圖創作集（方案 C：雜誌故事式）（純 HTML / CSS / JavaScript，無需建置）
 
-使用方式：
-1. 解壓縮 ZIP。
-2. 開啟 index.html，即可在瀏覽器瀏覽網站。
-3. 網站圖片均放在 assets 資料夾，請勿單獨移動 index.html 或 assets。
+【開啟】直接雙擊 index.html 即可離線瀏覽。
+【部署 GitHub Pages】把本資料夾內容（index.html 與 assets 資料夾）上傳到 repo 根目錄，
+  Settings → Pages → Branch 選 main /(root)。
 
-內容：
-- 首頁、創作初心、作品展示、創作歷程、教學與成長、分享與感動、創作的下一步、創作心得原文。
-- 五個 LINE 貼圖作品外連。
-- 圖片放大檢視、鍵盤左右鍵切換、手機滑動切換、明亮／深色模式。
-- 原始心得以已提供資料呈現，保留原文措辭與段落；未回答的 X 欄位亦保留於對應欄位中。
-
-素材保留：
-本 ZIP 內 assets 資料夾包含本次網站使用的來源圖片副本。使用者原始上傳檔案未被修改或覆蓋。
+【新增貼圖】把圖檔放進 assets/stickers/，檔名為「組別id-兩位數序號.webp」（例如 s1-25.webp），
+  再到 index.html 內 SETS 的 items 加一行 ['貼圖文字','主題']。
+【新增影片】影片與封面放進 assets/video/，在 VIDEOS 加一筆。
+【改文字】章節文字都在 STORY；貼圖組名稱在 SETS 的 title。聊天室小互動的三張貼圖在 STORY 的 chat 欄位。
